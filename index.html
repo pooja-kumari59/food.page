@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="profile-section">
+        <img src="puja.jpg" alt="Profile Image" class="profile-img">
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>Hello! I am Pooja, a passionate food lover. Welcome to my recipe blog where I share my favorite recipes and food experiences. Let's explore delicious dishes together!</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Delicious Fast Food</h1>
+        <hr>
+        <article>
+            <h2>Burger</h2>
+            <img src="https://th.bing.com/th/id/OIP.8MJgw49NgTeBLs1BFzqS0gHaHa?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="burger">
+            <p>
+                A delicious burger is a perfect blend of juicy flavors and textures. It starts with a soft, lightly toasted bun, warm and slightly crisp on the outside. Inside, a perfectly seasoned beef patty, cooked to juicy perfection, provides the hearty base. Melty cheese drapes over the patty, while fresh lettuce, ripe tomatoes, and crunchy pickles add a refreshing crunch. A tangy, creamy sauce ties all the elements together, giving every bite a burst of savory goodness. Whether topped with onions, bacon, or avocado, each bite is a mouthwatering combination of textures and flavors.
+
+            </p>
+            <button class="like-button" aria-label="Like this recipe" onclick="toggleLike(this)">❤️ Like</button>
+        </article>
+
+        <hr>
+
+        <article>
+            <h2>Momos</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3BT8ai9V68p50ltRUbDm4sIc9xBu2eGfRaw&s" alt="Momos">
+            <p>
+                Momos are a popular delicacy, especially in Himalayan regions, known for their soft, doughy exterior and flavorful fillings. These bite-sized dumplings are usually steamed or fried to perfection. The filling can vary from minced meat (chicken, pork, or lamb) to a vegetarian mix of finely chopped vegetables like cabbage, carrots, and onions, often spiced with garlic, ginger, and chilies. Served hot, momos are paired with a spicy, tangy dipping sauce (chutney) made from tomatoes, garlic, and red chili. The result is a deliciously comforting snack with a satisfying combination of soft, juicy, and spicy flavors.
+
+            </p>
+            <button class="like-button" aria-label="Like this recipe" onclick="toggleLike(this)">❤️ Like</button>
+        </article>
+
+        <hr>
+
+        <article>
+            <h2>Chowmein</h2>
+            <img src="https://th.bing.com/th/id/OIP.r5Phsqj7wlgg6z6XfZ7q_QHaHa?w=208&h=208&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="chowmein">
+            <p>
+                Chowmein is a popular Chinese-inspired dish made from stir-fried noodles, combined with a medley of vegetables like cabbage, bell peppers, carrots, and onions. The dish is often enhanced with flavorful sauces like soy sauce, chili sauce, and a touch of sesame oil. Some variations include protein such as chicken, shrimp, or tofu, making it both versatile and filling. The noodles are stir-fried until slightly crispy, giving a delightful texture. Chowmein is a perfect balance of savory and mildly spicy flavors, making it a go-to comfort food for many.
+
+            </p>
+            <button class="like-button" aria-label="Like this recipe" onclick="toggleLike(this)">❤️ Like</button>
+        </article>
+
+        <hr>
+
+        <article>
+            <h2>Pizza</h2>
+            <img src="https://th.bing.com/th/id/OIP.bjnTsR-Ya_9mq1ql3KeczgHaEF?w=308&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="pizza">
+            <p>
+                Imagine a perfectly baked, golden-brown crust, crisp on the outside yet soft and chewy on the inside. The pizza is generously slathered with a rich tomato sauce, bursting with tangy sweetness. Melted mozzarella cheese stretches with every bite, oozing over a medley of fresh toppings. From pepperoni’s savory spiciness to the sweet crunch of bell peppers, the flavors mingle together in harmony. Each slice is a delightful balance of textures and tastes, leaving you craving more with every mouthwatering bite.
+
+            </p>
+            <button class="like-button" aria-label="Like this recipe" onclick="toggleLike(this)">❤️ Like</button>
+        </article>
+
+        <hr>
+
+        <article>
+            <h2>Biryani</h2>
+            <img src="https://th.bing.com/th/id/OIP.PtjejbUWp_NRJXtugLp4CAHaE7?w=260&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="biryani">
+            <p>
+                Egg Biryani is a delectable and aromatic rice dish that seamlessly blends the rich flavors of spices with the wholesome goodness of eggs. Originating from the Indian subcontinent, this biryani is a beloved variation that offers a delightful twist to the classic meat-based versions.
+
+            </p>
+            <button class="like-button" aria-label="Like this recipe" onclick="toggleLike(this)">❤️ Like</button>
+        </article>
+    </main>
+
+    <footer>
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or just want to say hi, feel free to reach out!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>My Contact Information:</h3>
+                <p>Email: poojakumari24@navgurukul.org</p>
+                <p>Phone: +91 7042147544</p>
+                <p>Location: Uttar Pradesh, India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleLike(button) {
+            // Check if the button text contains "Like"
+            if (button.innerText.includes("Like")) {
+                // Change the button text to "Unlike"
+                button.innerText = "❤️ Unlike";
+            } else {
+                // Change the button text back to "Like"
+                button.innerText = "❤️ Like";
+            }
+        }
+    </script>
+</body>
+</html>
